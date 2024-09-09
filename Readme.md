@@ -54,12 +54,15 @@ CONVO is a Python-based project that automates sending messages on Facebook Mess
 
 ## Usage
 
-1. Configure your Facebook credentials in the `config.py` file.
-2. Run the main script:
+1. Configure your Facebook token in the `tokennum.txt` file.
+2. Set Resend Time `time.txt` Default (3sec) It Will Send Message In Every 3 Second 
+3. Put your target's uid on `convo.txt`
+4. Put your target name on `hatersname.txt`
+5. Run the main script:
    ```
    python main.py
    ```
-3. Follow the on-screen prompts to set up your messaging tasks.
+6. Follow the on-screen prompts to set up your messaging tasks.
 
 For more detailed instructions, please refer to our [User Guide](docs/USER_GUIDE.md).
 
